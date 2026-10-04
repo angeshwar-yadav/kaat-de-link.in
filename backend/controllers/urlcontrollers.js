@@ -59,7 +59,7 @@ const shortenURL = async (req, res) => {
         res.status(201).json({
             originalUrl: newURL.originalUrl,
             shortCode: newURL.shortCode,
-            shortUrl: `http://localhost:${process.env.PORT || 3000}/${newURL.shortCode}`
+            shortUrl: `https://kaat-de-link-in-db7q.vercel.app/${newURL.shortCode}`
         });
 
     } catch (error) {
