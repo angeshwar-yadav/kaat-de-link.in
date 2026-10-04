@@ -63,7 +63,7 @@ function App() {
       
     </div>
     <div className="flex items-center justify-center mt-4">
-      <p className="text-sm text-gray-500">
+      <p className="text-sm text-center text-gray-500 flex items-center justify-center mr-auto ml-auto sm:text-xs md:text-sm lg:text-sm ">
         By continuing, you agree to the Terms and Privacy Policy.
       </p>
     </div>
@@ -86,6 +86,7 @@ function App() {
                       href={result.shortUrl}
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="truncate text-ellipsis w-3/4 overflow-hidden"
                     >
                       {result.shortUrl}
                     </a>
