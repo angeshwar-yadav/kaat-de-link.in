@@ -22,26 +22,8 @@ Built as a full-stack project to practice **React, REST APIs, Node.js, Express.j
 ---
 
 ## 🖼️ Preview
+<img src="https://i.ibb.co/PLYngZv/ui.png"/>
 
-> Add a screenshot or GIF of your application here.
-
-```text
-┌──────────────────────────────────────────────┐
-│              🔗 URL SHORTENER                │
-│                                              │
-│  Paste your long URL                        │
-│  ┌────────────────────────────────────────┐  │
-│  │ https://example.com/very/long/url     │  │
-│  └────────────────────────────────────────┘  │
-│                                              │
-│              [ Shorten URL ]                 │
-│                                              │
-│  Your short URL:                             │
-│  http://localhost:3000/abc123                │
-└──────────────────────────────────────────────┘
-```
-
----
 
 ## 🧠 How It Works
 
@@ -150,7 +132,7 @@ Follow these steps to run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+gh repo clone angeshwar-yadav/kaat-de-link.in
 ```
 
 Move into the project directory:
@@ -560,7 +542,7 @@ Contributions, suggestions, and improvements are welcome.
 # Fork the repository
 
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/angeshwar-yadav/kaat-de-link.in.git
 
 # Create a branch
 git checkout -b feature/new-feature
